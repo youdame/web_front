@@ -137,20 +137,10 @@ button:disabled {
 
 }
 
-.allcabin{
-  display: flex;
 
-  /* justify-content: center;  */
-  align-items: center;
-  /* flex-grow: 1; */
-}
-
-
-.flight-card .cabin {
-  
+.flight-card > .cabin {
   width: 147px;
   border-left: 1px solid #e5e9f3;
-
 }
 
 .ticket-label {
