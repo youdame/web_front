@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, 'Noto Sans KR', sans-serif;
+  margin: 0;
+}
+
+.first{
+  margin-top: 0px;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 280px;
+}
+
+.second,
+.third,
+.fifth,
+.sixth{
+  margin: 0 auto;
+}
+.logo{
+  font-size: 20px;
+  font-weight: 700;
+  color : #ffffff;
+  margin-left: 40px;
+  
+}
+
+.logo span{
+  font-weight: 400;
+}
+
+
+.fifth{
+  background-color: #161346;
+  
+}
+
+
+.third{
+  background-color: #f1f4fa;
+  padding: 74px 0 64px;
+
+}
+
+.first_para,
+.second_para,
+.third_para,
+.fourth_para{
+  width: 720px;
+  margin: 74px auto 42px;
+  
+}
+
+
+.fifth_para{
+  padding: 40px;
+  text-align: center;
+}
+
+.first_comment{
+  margin: 80px 0 12px 0;
+  font-size : 20px;
+  font-weight: 500;
+  color : #8287a4;
+}
+
+.second_comment{
+  font-size : 56px;
+  font-weight: 700;
+  color : #ffffff;
+  margin-bottom: 14px;
+}
+
+.third_comment{
+  font-size : 14px;
+  font-weight: 400;
+  color : #8287a4;
+  
+}
+
+
+
+.second_para h1,
+.third_para h1,
+.fourth_para h1{
+  font-size : 36px;
+  font-weight: 700;
+  color : #161346;
+  
+
+}
+
+
+.fifth_para h1{
+  font-size : 32px;
+  font-weight: 500;
+  color : #ffffff;
+  margin: 40px 0px 8px;
+  
+}
+
+.second_para img,
+.third_para img,
+.fourth_para img{
+  width: 100%;
+  border-radius: 24px;
+  margin-bottom: 32px;
+}
+
+.second_para p,
+.third_para p, 
+.fourth_para p{
+  font-size : 16px;
+  font-weight: 500;
+  color : #4c497b;
+}
+
+.fifth_para p{
+  font-size : 16px;
+  font-weight: 400;
+  color : #8287a4;
+}
+
+.second_para button,
+.third_para button,
+.fourth_para button,
+.fifth_para button{
+  display: block;
+  font-size : 16px;
+  font-weight: 700;
+  color : #ffffff;
+  background-color: #413c91;
+  border-radius: 8px;
+  margin: 32px auto 64px;
+  padding: 16px 32px;
+  
+}
+
+.fifth_para button{
+
+  border-radius: 9999px;
+
+}
+
+.sixth{
+  background-color: #120f3f;
+  margin: 0 auto;
+  
+  
+}
+
+
+.box {
+  margin: 0 auto;
+  width: 720px;
+  text-align: center;
+  
+}
+
+.box .p2{
+  padding: 32px 0;
+  color : #d9d9d9;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  
+  
+}

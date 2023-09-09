@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin : 0
+}
+
+.header{
+  background-color: #11172b;
+  margin-top: 0px;
+}
+
+
+.header img{
+  height: 24px;
+  text-align: center;
+}
+.header .container{
+  width: 640px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 12px 0;
+
+}
+
+.header .container span{
+  font-weight: 300;
+  font-family: Titillium Web;
+}
+
+
+
+
+.contents{
+  background-color: #f8f8f8;
+  padding : 40px 0;
+ 
+}
+
+.content1, 
+.ticket1{
+  width: 640px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  background-color: #ebeff8;
+  border-radius: 8px;
+}
+
+.contents .content1 .label1{
+  
+  margin-bottom: 8px;
+  color:#b3bdd5;
+  font-size: 16px;
+}
+.contents .content1 .label1 img{
+  display: inline-block;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.contents .content1 .label2{
+  font-size: 32px;
+  font-family: 'Titillium Web';
+  color:#000000;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+
+.contents .content1 .button1{
+  padding: 8px 24px;
+  font-size: 16px;
+  color: #000000;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  background-color: white;
+  border: none;
+
+}
+
+.contents .content1 .tripDetail{
+  font-size: 12px;
+  color : #b3bdd5
+}
+
+
+
+hr{
+  color : #b6bfd3;
+  border: 1px dashed #b6bfd3;
+  margin: 24px auto ;
+  width: 640px;
+}
+
+
+
+.contents .ticket1{
+  background-color: #ffffff;
+  padding : 8px 0 24px 24px;
+  margin-bottom: 20px;
+}
+
+.contents .ticket1 .numbering{
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Titillium Web';
+  color : #16bf97;
+  margin-bottom : 8px
+}
+
+
+.contents .ticket1 .line2{
+  
+  border-bottom: 1px solid #dbf1ec;
+  margin-left: -24px;
+}
+
+.contents .ticket1 .small_title{
+  margin-top: 26px;
+  font-size: 12px;
+  font-weight: 500;
+  color : #b3bdd5;
+}
+
+.contents .ticket1 img{
+  width: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contents .ticket1 .time{
+  font-weight: 700;
+  color : #1a345e;
+  padding: 4px 0;
+  font-size: 16px;
+}
+
+.contents .ticket1 .detailAir{
+  margin-top: 4px;
+  color : #0b1f66;
+  font-size: 16px;
+}
+
+.contents .ticket1 .selections{
+  text-align: right;
+  font-weight: 500;
+  color : #1a345e;
+  font-size: 14px;
+}
+.contents .ticket1 .selections span{
+  margin-right: 24px;
+}
+
+
+.done{
+  opacity: 0.5;
+}
