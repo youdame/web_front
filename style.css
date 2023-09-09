@@ -7,7 +7,6 @@
 
 body {
   margin: 0 auto;
-  max-width: 1920px;
   
 }
 
@@ -34,7 +33,9 @@ header .starter{
 
 header .starter a, 
 header .starter button,
-main .intro .addlink{
+main .intro .addlink,
+footer .frame .footer_element .extra_info a,
+footer .frame .footer_element .sns_icons img{
   cursor: pointer;
 }
 header .login{
@@ -238,12 +239,17 @@ footer .frame .footer_element .codeit_2023{
 }
 
 footer .frame .footer_element .extra_info{
-  color: #CFCFCF;
   display: flex;
   width: 11rem;
   align-items: flex-start;
   gap: 1.875rem;
   justify-content: center;
+}
+
+footer .frame .footer_element .extra_info a{
+  color: #CFCFCF;
+  text-decoration: none;
+
 
 }
 
