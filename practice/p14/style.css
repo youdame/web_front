@@ -80,8 +80,9 @@ main {
   grid-template-areas:
    "assets"
    "order";
-  width :437px;
-  /* gap : 24px; */
+  grid-template-columns: 437px;
+  grid-template-rows: 307px 1fr;
+  gap : 24px;
 
 }
 
