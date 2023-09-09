@@ -43,8 +43,26 @@ ul.menu > li {
   color: #161346;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_right{
+  display: flex;
+  align-items: center;
+}
 .site.menu {
   flex: 1 1 auto;
+  display: flex;
+  gap :15px;
+
+}
+
+.auth.menu{
+  display: flex;
+  gap :15px;
+  align-items: center;
 }
 
 main {
@@ -82,7 +100,20 @@ main {
 }
 .order{
   grid-area: "order";
+
+
 }
+.order .order-types{
+  display: flex;
+
+}
+.order .total,
+.order .available{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 section {
   padding: 32px;
   border-radius: 16px;
@@ -90,7 +121,11 @@ section {
 }
 
 .detail {
+  position: relative;
+
 }
+
+
 
 .crypto-name {
   color: #161346;
@@ -129,6 +164,10 @@ section {
 .bookmark {
   width: 20px;
   height: 20px;
+  position: absolute;
+  right: 0px;
+  top :0px;
+
 }
 
 .chart-image {
@@ -136,9 +175,11 @@ section {
 }
 
 ul.categories {
-  margin: 0;
+  margin-top: 30px;
   padding: 0;
   list-style: none;
+  display: flex;
+  gap : 10px;
 }
 
 .category {
@@ -256,11 +297,13 @@ table.price-table td {
   font-weight: 500;
   font-size: 20px;
   line-height: 29px;
+  flex-grow: 1;
 }
 
 .order-type.active {
   border-bottom: 4px solid #e7566c;
   color: #e7566c;
+  flex-grow: 1;
 }
 
 .order .available,
@@ -299,6 +342,8 @@ table.price-table td {
   padding: 14px 24px;
   border-radius: 8px;
   background-color: #f9f9fb;
+  justify-content: space-between;
+  display: flex
 }
 
 .input-container .icon {
