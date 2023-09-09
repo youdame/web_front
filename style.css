@@ -4,9 +4,10 @@
 
 
 
+
 body {
   margin: 0 auto;
-
+  max-width: 1920px;
   
 }
 
@@ -28,6 +29,13 @@ header .starter{
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
+
+}
+
+header .starter a, 
+header .starter button,
+main .intro .addlink{
+  cursor: pointer;
 }
 header .login{
   border: none;
@@ -236,4 +244,15 @@ footer .frame .footer_element .extra_info{
   align-items: flex-start;
   gap: 30px;
 
+}
+
+footer .frame .footer_element .sns_icons{
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+footer .frame .footer_element .sns_icons img{
+  width: 20px;
+  height: 20px;
 }
