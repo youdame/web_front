@@ -140,6 +140,7 @@ button:disabled {
 .flight-card .ticket{
   
   flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .flight-card .cabin {
@@ -149,6 +150,9 @@ button:disabled {
   border-left: 1px solid #e5e9f3;
   justify-content: center;
   align-items: center;
+
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 .cabin .con{
   display: flex;
@@ -239,6 +243,15 @@ button:disabled {
   padding: 47px;
   border-radius: 8px;
   background-color: #ebeff8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap : 8px;
+  margin-top: -30px;
+  z-index: -1;
+  position: relative;
+
 }
 
 .ad > h3 {
