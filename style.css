@@ -17,7 +17,7 @@ header{
   padding: 20px 200px;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   align-self: stretch;
   background-color: var(--linkbrary-bg, #F0F6FF);
 
@@ -41,16 +41,16 @@ header .login{
   border: none;
   color: var(--grey-light, #F5F5F5);
   font-family: Pretendard;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   display: flex;
-  width: 128px;
+  width: 8rem;
   padding: 16px 20px;
   justify-content: center;
   align-items: center;
-  gap: 10px;  
+  gap: 0.625rem;  
   border-radius: 8px;
   background: var(--gra-purpleblue-to-skyblue, linear-gradient(91deg, #6D6AFE 0.12%, #6AE3FE 101.84%));
 }
@@ -63,17 +63,17 @@ main .intro{
   justify-content: flex-end;
   background: #F0F6FF;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 
 main .intro h1{
   text-align: center;
   font-family: Pretendard;
-  font-size: 64px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 80px; /* 125% */
+  line-height: 80px; 
 
  
 }
@@ -86,16 +86,16 @@ main .intro h1 span{
 
 main .intro .addlink{
   display: flex;
-  width: 350px;
+  width: 21.875;
   padding: 16px 20px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   border-radius: 8px;
   background: var(--gra-purpleblue-to-skyblue, linear-gradient(91deg, #6D6AFE 0.12%, #6AE3FE 101.84%));
   color: var(--grey-light, #F5F5F5);
   font-family: Pretendard;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;  
@@ -106,8 +106,8 @@ main .intro .addlink{
 
 main .intro img{
 
-  width: 1118px;
-  height: 659px;
+  width: 70rem;
+  height: 41rem;
   flex-shrink: 0;  
   border-radius: 25px;
   background: linear-gradient(180deg, rgba(196, 196, 196, 0.00) 67.68%, #F0F6FF 94.76%);
@@ -127,22 +127,22 @@ main .content{
 .content .frame{
   display: flex;
   align-items: center;
-  gap: 157px;
+  gap: 9.8rem;
 }
 
 
 .frame .texts{
   display: flex;
-  width: 291px;
+  width: 18rem;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 
 .frame .texts h2{
   font-family: Pretendard;
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -183,15 +183,15 @@ main .content{
 .frame .texts .para{
   color: #6B6B6B;
   font-family: Pretendard;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 24px */
 }
 
 .frame img{
-  width: 550px;
-  height: 450px;
+  width: 34rem;
+  height: 28rem;
   border-radius: 15px;
   background: #F0F6FF;
 }
@@ -199,7 +199,7 @@ main .content{
 
 footer{
   display: flex;
-  height: 280px;
+  height: 17.5rem;
   padding-top: 120px;
   flex-direction: column;
   align-items: center;
@@ -209,7 +209,7 @@ footer{
 
 footer .frame{
   display: flex;
-  height: 160px;
+  height: 10rem;
   padding: 32px 104px 64px 104px;
   flex-direction: column;
   align-items: center;
@@ -225,7 +225,7 @@ footer .frame .footer_element{
   align-items: flex-start;
   align-self: stretch;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -240,19 +240,20 @@ footer .frame .footer_element .codeit_2023{
 footer .frame .footer_element .extra_info{
   color: #CFCFCF;
   display: flex;
-  width: 181.111px;
+  width: 11rem;
   align-items: flex-start;
-  gap: 30px;
+  gap: 1.875rem;
+  justify-content: center;
 
 }
 
 footer .frame .footer_element .sns_icons{
   display: flex;
   align-items: flex-start;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 footer .frame .footer_element .sns_icons img{
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
