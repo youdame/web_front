@@ -16,13 +16,6 @@ body {
   padding: 32px;
 }
 
-
-.hero{
-  position: relative;
-
-
-
-}
 header {
   background-image: linear-gradient(
     180deg,
@@ -31,11 +24,6 @@ header {
   );
   padding: 16px;
   font-weight: 700;
-
-  position: sticky;
-  top:0;
-  z-index: 1;
-
 }
 
 .bg {
@@ -43,27 +31,27 @@ header {
   opacity: 0.5;
 }
 
-
-.hero-heading {
-  margin: 0;
-  inset: 0;
-  margin: 0;
-  padding: 24px;
+.hero {
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  
+}
+.hero-heading {
+  margin: 0;
+  padding: 24px;
   background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+  position: absolute;
+  top :200px
 }
 
 .hero-heading h1 {
-  margin: -900px 0 0;
   font-weight: 400;
   font-size: 80px;
   line-height: 95px;
   text-align: center; 
   color: #ffffff;
 }
-
 
 .hero-heading .small {
   font-size: 48px;
@@ -72,25 +60,24 @@ header {
   color: rgba(217, 217, 217, 0.5);
 }
 
-.headline{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap : 176px;
-}
-/* 
-.headline div{
-  display: flex;
-  
-  flex-direction: column;
-  
-  /* align-items: center; */
-
 
 .hero-heading .big {
   font-weight: 700;
 }
 
+.headline {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.headline .phone-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .headline-image {
   width: 504px;
   height: 520px;
@@ -112,10 +99,6 @@ header {
   background-color: #280357;
   margin: 200px 0;
   padding: 80px 180px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
 }
 
 .promotion-content h2 {
@@ -148,10 +131,27 @@ header {
   margin: 32px 0;
 }
 
+.benefits{
+  
+  display: grid;
+  gap : 20px;
+  grid-template : 
+    1fr 1fr / 
+    1fr 1fr;
+}
+
+
+.benefits .wide{
+  grid-column : 1 / span 2; 
+
+}
+
 .plans {
   margin-bottom: 120px;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  gap : 15px;
+
 }
 
 .card {
@@ -159,10 +159,27 @@ header {
   border: 2px solid #ffffff;
   border-radius: 16px;
   text-align: center;
+  position: relative;
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
+  
+}
+/* 
+.card h3{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+} */
+
+.card .event-badge{
+  position: absolute;
+  top: 10px;
+  right : 10px;
 }
 
 .card.event {
@@ -216,4 +233,28 @@ footer {
 .footer-info {
   color: #ffffff;
   color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: space-between;
+  gap : 50px;
+}
+
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  gap : 80px;
+  
+}
+.footer-content .footer-buttons{
+  display: flex;
+  gap : 70px;
+}
+
+.footer-info .info-lines{
+  display: flex;
+  flex-direction: column;
+  gap : 4px;
+
 }
