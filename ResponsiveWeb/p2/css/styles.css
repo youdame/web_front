@@ -1,5 +1,7 @@
 
-
+*{
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -10,9 +12,11 @@ body {
   height: 60px;
   width: 100%;
 
+  display: flex;
+  align-items: center;
   padding-left: 30px;
   padding-right: 30px;
-  line-height: 60px;
+  /* line-height: 60px; */
 }
 
 #div1 .logo{
