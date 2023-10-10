@@ -9,8 +9,7 @@ const Member = {
 };
 
 fetch('https://learn.codeit.kr/api/members/2', {
-  method :'PUT',
-  body: JSON.stringify(newMember),
+  method :'DELETE',
 })
 
 .then((response) => response.text())
